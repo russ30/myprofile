@@ -1,0 +1,218 @@
+html {
+				font-family: "Merriweather","Helvetica Neue",Arial,sans-serif;
+				font-size: 15px;
+				background-color : transparent !important;
+			}
+
+			body{
+				background-color : transparent !important;
+				border:50px solid #000;
+			}
+			
+			/* Paste this css to your style sheet file or under head tag */
+			/* This only works with JavaScript, 
+			if it's not present, don't show loader */
+			.no-js #loader { display: none;  }
+			.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+			.se-pre-con {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+				background: url('http://localhost/russel/images/Preloader_2.gif');
+				background:center no-repeat #fff;
+			}
+			
+			#spc{
+				margin-top:7%;
+			}
+			
+			#top{
+				background:#ffff;
+				border:1px solid black;
+				width:100%; 
+				
+			}
+
+			#top1{
+				border:1px solid blue;
+				width:100%; 
+			}
+
+			
+			
+			#r , #u , #s , #ss , #e, #l {
+				text-align:center;
+				margin:2%;
+			}
+			
+			
+			
+			#r{
+				width:30%;
+				position:absolute;
+				top: 25%;
+				left:30%;
+				font-size:60;
+				color:#ffff;
+				-webkit-animation: r_text_animation 2s 4 linear alternate;; /* Chrome, Safari, Opera */
+				animation: r_text_animation 2s 4 linear alternate;;
+			} 
+			
+			/* Chrome, Safari, Opera */
+			@-webkit-keyframes r_text_animation {
+				
+				to {transform:rotateX(90deg);}
+				 50% {text-shadow: 10px 20px 30px #F7819F;}
+			}
+
+			/* Standard syntax */
+			@keyframes r_text_animation {
+				
+				to {transform:rotateX(90deg);}
+				 50% {text-shadow: 10px 20px 30px #F7819F;}
+			}
+			
+			
+			/* Add animation to "page content" */
+			#u {
+			  width:30%;
+			  right:0px;
+			  top:45%;
+			  display: none;
+			  position: absolute;
+			  color:#FA8258;
+			  
+			}
+
+			
+
+			#s{
+			  width:30%;
+			  left:30%;
+			  top:8%;
+			  color:#BCF5A9;
+			  display: none;
+			  position: absolute;
+			} 
+			
+			
+			#ss{
+			  width:30%;
+			  right: 0%;
+			  left:0;
+			  top:45%;
+			  display: none;
+			  color:#6A0888;
+			  position: absolute;
+			} 
+			
+			.center2{
+				width:100%;
+				margin-top:5%;
+				margin-bottom:5%;
+				background:#EFFBF2;
+			}
+			
+			.center3{
+			
+			}
+
+			#grid1, #grid2 {
+				margin: 0 4%;
+				max-width: 45%;
+				text-align:justify;
+			}
+			
+			#footer{
+				
+			}
+			
+			#footer p{
+				text-align:center;
+			}
+			
+			ul.nav-pills {
+			  position: fixed;
+			  right: 7%;
+			  top: 125px;
+			  z-index: 1;
+			}
+			
+			ul.nav-pills  a:hover{
+				background-color:black;
+			}
+			
+			#map {
+				height: 100%;
+			}
+			
+			.center3{
+				text-align:justify;
+			}
+			
+			.center4{
+				text-align:justify;
+				background:#CED8F6;
+			}
+			
+			.center5{
+				text-align:justify;
+				background:#F8E0E6;
+			}
+			
+			#c_form{
+				display:none;
+			}
+			
+			.center1{
+			width:100%; 
+			background-image:url("/russel/images/header.jpg");
+			height:610px;
+			}
+			
+			hr{
+			   color:red;
+			} 
+		
+		/*-----------------------parallax-------------------*/
+		.parallax {
+			background-image: url("/russel/images/1.jpg");
+			min-height: 300px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.parallax_1 {
+			background-image: url("/russel/images/2.jpeg");
+			min-height: 300px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.parallax_2 {
+			background-image: url("/russel/images/4.jpeg");
+			min-height: 300px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.fa.fa-angle-double-up{
+			text-align:center;
+			font-size: 200px;
+		}
+		/*-------------------End-----------------*/
+			
+			
+			
+			
+			
+			
