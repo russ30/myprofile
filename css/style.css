@@ -6,7 +6,7 @@ html {
 
 			body{
 				background-color : transparent !important;
-				border:50px solid #000;
+				//border:50px solid #000;
 			}
 			
 			/* Paste this css to your style sheet file or under head tag */
@@ -21,7 +21,7 @@ html {
 				width: 100%;
 				height: 100%;
 				z-index: 9999;
-				background: url('http://localhost/russel/images/Preloader_2.gif');
+				background: url('../russel/images/Preloader_2.gif');
 				background:center no-repeat #fff;
 			}
 			
@@ -111,8 +111,8 @@ html {
 			
 			.center2{
 				width:100%;
-				margin-top:5%;
-				margin-bottom:5%;
+				//margin-top:5%;
+				//margin-bottom:5%;
 				background:#EFFBF2;
 			}
 			
