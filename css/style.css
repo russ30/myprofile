@@ -1,12 +1,12 @@
 html {
 				font-family: "Merriweather","Helvetica Neue",Arial,sans-serif;
-				font-size: 15px;
+				font-size: 14px;
 				background-color : transparent !important;
+				background : #f8e0e6 none repeat scroll 0 0 !important;
 			}
 
 			body{
 				background-color : transparent !important;
-				//border:50px solid #000;
 			}
 			
 			/* Paste this css to your style sheet file or under head tag */
@@ -155,12 +155,12 @@ html {
 			
 			.center4{
 				text-align:justify;
-				background:#CED8F6;
+				//background:#CED8F6;
 			}
 			
 			.center5{
 				text-align:justify;
-				background:#F8E0E6;
+				//background:#F8E0E6;
 			}
 			
 			#c_form{
