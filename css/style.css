@@ -136,8 +136,8 @@ html {
 			
 			ul.nav-pills {
 			  position: fixed;
-			  right: 7%;
-			  top: 125px;
+			  right: 6%;
+			  top: 15%;
 			  z-index: 1;
 			}
 			
