@@ -2,11 +2,11 @@ html {
 				font-family: "Arial";
 				font-size: 14px;
 				background-color : transparent !important;
-				background : #f8e0e6 none repeat scroll 0 0 !important;
+				background : appworkspace none repeat scroll 0 0 !important;
 			}
 
 			body{
-				background-color : transparent !important;
+				/*background-color : transparent !important;*/
 			}
 			
 			/* Paste this css to your style sheet file or under head tag */
