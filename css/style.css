@@ -130,6 +130,10 @@ html {
 			#footer{
 				
 			}
+
+			.nav-stacked,.change li a{
+				color:black !important;
+			}
 			
 			#footer p{
 				text-align:center;
